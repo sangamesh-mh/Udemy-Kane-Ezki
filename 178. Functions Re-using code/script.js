@@ -47,3 +47,10 @@ typeof(10)
 
 
 */
+
+function times(num1, num2) {
+  return num1 * num2;
+}
+
+const result = times(2, 2);
+console.log(result);
