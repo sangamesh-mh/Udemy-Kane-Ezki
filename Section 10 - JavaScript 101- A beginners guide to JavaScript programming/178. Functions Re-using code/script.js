@@ -5,7 +5,7 @@ function addNumbers(num1, num2) {
 
 const addedTotal = addNumbers(1, 9);
 
-// ggreetings function
+// greetings function
 
 function greetings(name) {
   console.log(`Hello there !!! ${name}`);
