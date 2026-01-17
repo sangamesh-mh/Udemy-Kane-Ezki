@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>186. JavaScript variable scoping</title>
+  </head>
+  <body>
+    <h1>186. JavaScript variable scoping</h1>
+
+    <script>
+      //   const num = 1234;
+      //   function greet() {
+      //     let greeting = 'hello world!!';
+      //     const greeting1 = 'hii world!!';
+      //     var greeting2 = 'how are you?';
+      //   }
+
+      //   console.log(greeting);
+      //   console.log(greeting1);
+      //   console.log(greeting2);
+      //   console.log(num);
+
+      /* in a if() statement */
+
+      const num = 1234;
+      if (num === 1234) {
+        const wish = 'good morning';
+        let wish1 = 'good afternoon';
+        var wish2 = 'good evening';
+      }
+      //   console.log(wish);
+      //   console.log(wish1);
+      console.log(wish2);
+    </script>
+  </body>
+</html>
