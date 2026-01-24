@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>189. callback functions</title>
+  </head>
+  <body>
+    <h1>callback functions</h1>
+
+    <script>
+      // console.log('the first thing');
+      // setTimeout(function () {
+      //   console.log('do this thing in here');
+      // }, 2500);
+      // console.log('the last line');
+
+      function one() {
+        console.log('first function');
+      }
+
+      function two() {
+        console.log('second function');
+        one();
+      }
+
+      two();
+    </script>
+  </body>
+</html>
